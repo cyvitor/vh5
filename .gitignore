@@ -1,0 +1,26 @@
+# Materiais locais e históricos que não fazem parte do site publicado
+/Curriculo/
+/fts/
+/legado/
+/output/
+/tmp/
+
+# Pacotes e artefatos gerados
+*.zip
+*.rar
+*.tar
+*.gz
+
+# Arquivos locais de ambiente e credenciais
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
