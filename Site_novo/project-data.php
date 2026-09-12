@@ -3,7 +3,7 @@ return [
 	'centralvt' => [
 		'name' => 'Central VT',
 		'type' => 'Modernização da operação digital',
-		'status' => 'Case em evolução',
+		'status' => 'Em evolução',
 		'status_tone' => 'progress',
 		'title' => 'Central VT | Automação e modernização da operação digital',
 		'description' => 'Três frentes na mesma operação: comunicação documental entregue, caminho até a produção em implantação e automação comercial em desenvolvimento.',

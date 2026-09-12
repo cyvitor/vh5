@@ -367,14 +367,15 @@ img { max-width: 100%; height: auto; }
 .operation-chain i { display: none; }
 
 .account-block {
-	margin-top: 22px;
+	margin-top: 28px;
 	padding: 34px;
 	border: 1px solid #1e4a6d;
 	border-radius: var(--radius);
 	background: linear-gradient(145deg, #0e2740, #091522);
 }
 .account-featured { margin-top: 0; margin-bottom: 24px; border-color: #2586bf; box-shadow: 0 24px 70px rgba(0, 0, 0, .24); }
-.cases-secondary { grid-template-columns: repeat(3, 1fr); }
+.section-dark .case-card.featured { margin-bottom: 24px; }
+.cases-secondary { grid-template-columns: repeat(2, 1fr); }
 .cases-secondary .case-card { padding: 28px; }
 .cases-secondary .case-card h3 { font-size: 1.65rem; }
 .cases-secondary .case-card dl div { grid-template-columns: 1fr; gap: 4px; }
@@ -438,7 +439,7 @@ img { max-width: 100%; height: auto; }
 .offer-grid li { position: relative; padding: 4px 0 4px 18px; color: #536478; font-size: .78rem; }
 .offer-grid li::before { content: "✓"; position: absolute; left: 0; color: #159b69; font-weight: 800; }
 .offer-number { display: block; margin-bottom: 16px; color: #1484d1; font-size: .7rem; font-weight: 850; letter-spacing: .15em; }
-.offer-not { color: #8a6a2a !important; font-size: .75rem !important; font-weight: 650; }
+.offer-not { color: #8a6a2a !important; font-size: .75rem !important; font-weight: 650; margin: 16px 0 0 !important; }
 .contract-row {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

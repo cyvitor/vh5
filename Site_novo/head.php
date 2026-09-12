@@ -1,5 +1,5 @@
 <?php
-$pageTitle = $pageTitle ?? 'VH5 | Automação de Operações Empresariais';
+$pageTitle = $pageTitle ?? 'VH5 | Automação de operações';
 $pageDescription = $pageDescription ?? 'A VH5 transforma processos manuais e sistemas dispersos em operações automatizadas, integradas e confiáveis — da análise à produção.';
 $canonicalPath = $canonicalPath ?? '/';
 $ogImage = $ogImage ?? 'https://vh5.xyz/assets/images/og-vh5-automacao-operacoes.jpg';

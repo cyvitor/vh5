@@ -13,10 +13,10 @@ $canonicalPath = '/centralvt.php';
 			<div class="container project-hero-grid">
 				<div>
 					<a class="back-link" href="index.php#casos">← Voltar aos casos reais</a>
-					<p class="eyebrow"><span></span>Case principal · três frentes</p>
+					<p class="eyebrow"><span></span>Conta em curso · três frentes</p>
 					<h1>Central VT</h1>
-					<p class="project-lead">Automação e modernização da operação digital: comunicação documental rastreável, engenharia de produção e automação do primeiro contato. Cada frente mantém seu estado real.</p>
-					<span class="badge progress"><i></i>Case em evolução</span>
+					<p class="project-lead">A mesma operação digital, em três frentes com estado real: DocuTrace entregue, produção em cloud em implantação e LeadFlow em desenvolvimento.</p>
+					<span class="badge progress"><i></i>Em evolução</span>
 				</div>
 				<div class="project-symbol" aria-hidden="true">
 					<div class="mini-architecture"><span>Doc</span><b>→</b><span>Cloud</span><b>→</b><span>Lead</span></div>
@@ -34,10 +34,26 @@ $canonicalPath = '/centralvt.php';
 			</div>
 		</section>
 
-		<section class="section section-soft" id="producao">
+		<section class="section section-soft" id="docutrace-resumo">
 			<div class="container">
 				<div class="section-heading reveal">
-					<div><p class="section-kicker">Frente 1</p><h2>Produção e cloud</h2></div>
+					<div><p class="section-kicker">Frente 1</p><h2>DocuTrace</h2></div>
+					<p>A frente já entregue: comunicação documental transformada em operação controlada.</p>
+				</div>
+				<div class="front-status reveal"><span class="badge done"><i></i>Entregue</span></div>
+				<div class="story-grid reveal">
+					<article><span>Problema</span><h2>Envio sem ciência</h2><p>Sair o e-mail não dizia quem chegou ao contrato, quem baixou e quem se manifestou.</p></article>
+					<article><span>Solução</span><h2>Trilha por destinatário</h2><p>Campanha, token individual, portal protegido e eventos separados de entrega, visualização, download e aceite ou recusa.</p></article>
+					<article><span>Comprovado</span><h2>Operação mensurável</h2><p>Fluxo centralizado, protegido e pesquisável. Não é assinatura digital nem garantia jurídica isolada.</p></article>
+				</div>
+				<p class="front-link reveal"><a class="case-link" href="docutrace.php">Abrir o caso DocuTrace →</a></p>
+			</div>
+		</section>
+
+		<section class="section" id="producao">
+			<div class="container">
+				<div class="section-heading reveal">
+					<div><p class="section-kicker">Frente 2</p><h2>Produção e cloud</h2></div>
 					<p>Uma aplicação confiável também precisa de identidade, testes, rollback, observabilidade e limites conhecidos.</p>
 				</div>
 				<div class="front-status reveal"><span class="badge progress"><i></i>Em implantação</span></div>
@@ -56,10 +72,10 @@ $canonicalPath = '/centralvt.php';
 			</div>
 		</section>
 
-		<section class="section" id="leadflow-resumo">
+		<section class="section section-soft" id="leadflow-resumo">
 			<div class="container">
 				<div class="section-heading reveal">
-					<div><p class="section-kicker">Frente 2</p><h2>LeadFlow</h2></div>
+					<div><p class="section-kicker">Frente 3</p><h2>LeadFlow</h2></div>
 					<p>Captação, triagem e encaminhamento do primeiro contato — ainda em desenvolvimento.</p>
 				</div>
 				<div class="front-status reveal"><span class="badge build"><i></i>Em desenvolvimento</span></div>
@@ -69,22 +85,6 @@ $canonicalPath = '/centralvt.php';
 					<article><span>Resultado</span><h2>Ainda esperado</h2><p>Menos intervenção entre contato e agenda. Nenhum percentual deve ser apresentado como já obtido.</p></article>
 				</div>
 				<p class="front-link reveal"><a class="case-link" href="leadflow.php">Abrir o caso LeadFlow →</a></p>
-			</div>
-		</section>
-
-		<section class="section section-soft" id="docutrace-resumo">
-			<div class="container">
-				<div class="section-heading reveal">
-					<div><p class="section-kicker">Frente 3</p><h2>DocuTrace</h2></div>
-					<p>A frente já entregue: comunicação documental transformada em operação controlada.</p>
-				</div>
-				<div class="front-status reveal"><span class="badge done"><i></i>Entregue</span></div>
-				<div class="story-grid reveal">
-					<article><span>Problema</span><h2>Envio sem ciência</h2><p>Sair o e-mail não dizia quem chegou ao contrato, quem baixou e quem se manifestou.</p></article>
-					<article><span>Solução</span><h2>Trilha por destinatário</h2><p>Campanha, token individual, portal protegido e eventos separados de entrega, visualização, download e aceite ou recusa.</p></article>
-					<article><span>Comprovado</span><h2>Operação mensurável</h2><p>Fluxo centralizado, protegido e pesquisável. Não é assinatura digital nem garantia jurídica isolada.</p></article>
-				</div>
-				<p class="front-link reveal"><a class="case-link" href="docutrace.php">Abrir o caso DocuTrace →</a></p>
 			</div>
 		</section>
 
