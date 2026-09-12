@@ -42,10 +42,12 @@ $canonicalPath = '/' . $projectSlug . '.php';
 
 		<section class="section project-story">
 			<div class="container">
-				<div class="story-grid reveal">
+				<div class="story-grid story-grid-five reveal">
 					<article><span>01</span><h2>Problema</h2><p><?= htmlspecialchars($project['problem']) ?></p></article>
-					<article><span>02</span><h2>Solução</h2><p><?= htmlspecialchars($project['solution']) ?></p></article>
-					<article><span>03</span><h2>Resultado</h2><p><?= htmlspecialchars($project['result']) ?></p></article>
+					<article><span>02</span><h2>Contexto operacional</h2><p><?= htmlspecialchars($project['context'] ?? $project['problem']) ?></p></article>
+					<article><span>03</span><h2>Solução</h2><p><?= htmlspecialchars($project['solution']) ?></p></article>
+					<article><span>04</span><h2>Como funciona</h2><p><?= htmlspecialchars($project['how'] ?? $project['solution']) ?></p></article>
+					<article class="story-result"><span>05</span><h2><?= htmlspecialchars($project['result_label'] ?? 'Resultado comprovado') ?></h2><p><?= htmlspecialchars($project['result']) ?></p></article>
 				</div>
 			</div>
 		</section>
@@ -53,8 +55,8 @@ $canonicalPath = '/' . $projectSlug . '.php';
 		<section class="section project-evidence">
 			<div class="container">
 				<div class="section-heading reveal">
-					<div><p class="section-kicker">Impacto</p><h2>Resultado em contexto</h2></div>
-					<p>Indicadores operacionais e entregas que demonstram o alcance da solução.</p>
+					<div><p class="section-kicker">Evidências</p><h2>Resultado em contexto</h2></div>
+					<p>Indicadores e entregas apresentados de acordo com o estado real de cada solução.</p>
 				</div>
 				<div class="project-metrics reveal">
 					<?php foreach ($project['metrics'] as $metric): ?>
@@ -71,7 +73,7 @@ $canonicalPath = '/' . $projectSlug . '.php';
 		<?php if (!empty($project['images'])): ?>
 		<section class="section project-gallery">
 			<div class="container">
-				<div class="section-heading reveal"><div><p class="section-kicker">Projeto em uso</p><h2>Interface e operação</h2></div></div>
+				<div class="section-heading reveal"><div><p class="section-kicker">Evidência visual</p><h2>Interface e operação</h2></div><p>Imagens demonstrativas com dados fictícios ou devidamente sanitizados.</p></div>
 				<div class="gallery-grid reveal">
 					<?php foreach ($project['images'] as $image): ?>
 						<figure><img src="<?= htmlspecialchars($image['src']) ?>" alt="<?= htmlspecialchars($image['alt']) ?>" loading="lazy" decoding="async" /></figure>
@@ -91,7 +93,7 @@ $canonicalPath = '/' . $projectSlug . '.php';
 		<section class="contact compact" id="contato">
 			<div class="container contact-inner reveal">
 				<p class="section-kicker">Tem um processo semelhante?</p>
-				<h2>Descreva o fluxo. Eu digo o que automatizar e o que precisa chegar à produção.</h2>
+				<h2>Descreva o fluxo. Avaliamos o que automatizar, integrar e preparar para produção.</h2>
 				<div class="contact-actions">
 					<a class="button light" href="mailto:cyvitorhugo@gmail.com">Conversar por e-mail</a>
 					<a class="button outline-light" href="https://wa.me/5571981583829" target="_blank" rel="noopener">WhatsApp ↗</a>

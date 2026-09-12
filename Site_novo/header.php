@@ -8,9 +8,10 @@
 		</button>
 		<nav id="main-nav" aria-label="Navegação principal">
 			<a href="index.php#problemas">Problemas</a>
+			<a href="index.php#centralvt">Central VT</a>
 			<a href="index.php#casos">Casos reais</a>
-			<a href="index.php#metodo">Método</a>
-			<a href="index.php#servicos">Ofertas</a>
+			<a href="index.php#metodo">Como trabalhamos</a>
+			<a href="index.php#sobre">Sobre</a>
 			<a class="nav-cta" href="index.php#contato">Contato</a>
 		</nav>
 	</div>

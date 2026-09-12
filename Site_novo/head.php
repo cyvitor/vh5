@@ -1,8 +1,8 @@
 <?php
-$pageTitle = $pageTitle ?? 'VH5 | Automação de operações';
-$pageDescription = $pageDescription ?? 'A VH5 transforma processos manuais em operações que funcionam sozinhas — integradas, rastreáveis e prontas para produção.';
+$pageTitle = $pageTitle ?? 'VH5 | Automação de Operações Empresariais';
+$pageDescription = $pageDescription ?? 'A VH5 transforma processos manuais e sistemas dispersos em operações automatizadas, integradas e confiáveis — da análise à produção.';
 $canonicalPath = $canonicalPath ?? '/';
-$ogImage = $ogImage ?? 'https://vh5.xyz/assets/images/og-vitor-hugo-devops.jpg';
+$ogImage = $ogImage ?? 'https://vh5.xyz/assets/images/og-vh5-automacao-operacoes.jpg';
 $canonicalUrl = 'https://vh5.xyz' . $canonicalPath;
 ?>
 <title><?= htmlspecialchars($pageTitle, ENT_QUOTES, 'UTF-8') ?></title>
@@ -20,6 +20,7 @@ $canonicalUrl = 'https://vh5.xyz' . $canonicalPath;
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:locale" content="pt_BR" />
+<meta property="og:site_name" content="VH5" />
 <meta name="twitter:card" content="summary_large_image" />
 <link rel="canonical" href="<?= htmlspecialchars($canonicalUrl, ENT_QUOTES, 'UTF-8') ?>" />
 <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml" />
