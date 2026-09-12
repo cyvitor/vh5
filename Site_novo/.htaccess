@@ -1,13 +1,5 @@
 Options -Indexes
 
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteCond %{HTTPS} !=on
-  RewriteCond %{HTTP:X-Forwarded-Proto} !https [NC]
-  RewriteCond %{HTTP:CF-Visitor} !"scheme":"https" [NC]
-  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-</IfModule>
-
 <FilesMatch "\.(bak|bkp|backup|sql|log|ini|env|rar|zip)$">
   Require all denied
 </FilesMatch>
